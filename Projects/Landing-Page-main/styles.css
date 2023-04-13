@@ -1,0 +1,193 @@
+html,body
+{
+    margin:0;
+    background-color: #7cb69c;
+}
+
+/**TOP HEADER**/
+
+.TopHeader 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    column-gap: 500px;
+}
+
+.TopHeader img
+{
+    width: 200px;
+    height: 70px;
+    
+}
+
+.TopHeader .Links
+{
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+}
+.TopHeader .Links > a
+{ 
+    margin: 10px;
+    color:#2d4239;
+}
+
+/**ABOUT**/
+
+.About
+{
+    margin: 75px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    justify-content: center;
+}
+
+.About .Description h2
+{
+    font-size: 50px;
+}
+.About .Description p
+{
+    font-size: 20px;
+    width: 450px;
+}
+
+.About button
+{
+    border-radius: 5px;
+    color: white;
+    background-color: #a2d5ab;
+    padding: 10px 5px;
+}
+
+.About button a
+{
+    color: white;
+}
+/**FEATURES**/
+.Features 
+{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: #85c7aa;
+}
+
+.Features h3
+{
+    padding: 10px;
+    margin: 30px;
+    font-size: 40px;
+    align-self: center;
+}
+.Features .FeatureImages
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.Features .FeatureImages img
+{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    border-radius: 50px;
+    border: 2px solid #5e8d79;
+}
+
+.Features .FeatureImages p
+{
+    font-weight: bolder;
+    font-style: italic;
+    width: 210px;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+}
+
+/**TOOLS**/
+.Tools 
+{
+    background-color: #5e8d79;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0px;
+}
+.Tools #BigText
+{
+    font-size:35px;
+    width: 550px;
+    font-style: italic;
+}
+
+.Tools #SmallText
+{
+    font-size:25px;
+    font-weight: bold;
+}
+
+/**TRY**/
+.Try
+{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.Box
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #a2d5ab;
+    border-radius: 20px;
+    gap: 100px;
+}
+
+.Box .Text
+{
+    gap: 0px;
+    padding: 10px;
+}
+
+.Box .TryButton 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.Box .TryButton button
+{
+    border-radius: 5px;
+    color: white;
+    background-color: #a2d5ab;
+    padding: 10px 5px;
+}
+.Box .TryButton button > a
+{
+    color: white;
+}
+
+/**Footer**/
+.Footer 
+{
+    display: flex;
+    justify-content: center;
+    background-color: #2d4239;
+}
+
+.Footer p
+{
+    font-weight: bold;
+    font-style: italic;
+}
