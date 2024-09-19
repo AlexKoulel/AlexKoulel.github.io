@@ -2,61 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Alexandros Koulelis</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Alexandros Koulelis Portfolio</h1>
-        <div class="main">
-            <div class="row">
-                <div class="project">
-                    <img src="Images/turtlenav.png" alt="turtlenav">
-                    <div class="information">
-                        <h2 class="title">Turtle Nav</h2>
-                        <p class="description">Agircultural navigation app for Android ,using the Google Maps SDK.</p>
-                        <div class="buttons">
-                            <button><a href="https://github.com/AlexKoulel/Turtle-Nav">Code</a></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="project">
-                    <img src="Images/nonogram.png" alt="turtlenav">
-                    <div class="information">
-                        <h2 class="title">NonogramU</h2>
-                        <p class="description">A simple 5x5 Nonogram game made using Unity for Windows.</p>
-                        <div class="buttons">
-                            <button><a href="https://github.com/AlexKoulel/NonogramU">Code</a></button>
-                            <button><a href="https://github.com/AlexKoulel/NonogramU/releases">Download</a></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="project">
-                    <img src="Images/8ball.png" alt="8ball">
-                    <div class="information">
-                        <h2 class="title">Magic 8 Ball</h2>
-                        <p class="description">Simple magic 8 ball game using Typescript and Three.js.</p>
-                        <div class="buttons">
-                            <button><a href="https://github.com/AlexKoulel/magic-8-ball">Code</a></button>
-                            <button><a href="Projects/magic-8-ball/index.html">Live Demo</a></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="project">
-                    <img src="Images/password.png" alt="password-generator">
-                    <div class="information">
-                        <h2 class="title">Password Generator</h2>
-                        <p class="description">Simple random password generator using Javascript.</p>
-                        <div class="buttons">
-                            <button><a href="https://github.com/AlexKoulel/password-generator">Code</a></button>
-                            <button><a href="https://codepen.io/AlexKoulel/pen/VwEmmjQ">Live Demo</a></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="container">
+        <header>
+            <h1>Alexandros Koulelis</h1>
+            <p>Junior software developer with a Bachelor's in Informatics Engineering. <br>Passionate about coding and troubleshooting, eager to innovate and contribute to impactful projects.</p>
+        </header>
+
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/alexandros-koulelis/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/AlexKoulel" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:your-alkoulel@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="cv.pdf"><i class="fas fa-file-alt"></i></a>
         </div>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <a href="https://github.com/AlexKoulel/Turtle-Nav"><button>Turtle Nav</button></a>
+                <p>Turtle Nav is an <b>Android application</b> designed for <b>GPS navigation</b> of agricultural vehicles, offering precise field guidance.</p>
+            </div>
+            <div class="project-item">
+                <a href="https://github.com/AlexKoulel/chara"><button>Chara</button></a> 
+                <p>Chara is a <b>journaling application</b> designed to assist you in monitoring your daily thoughts and mental well-being for <b>Android devices</b>.</p>
+            </div>
+            <div class="project-item">
+                <a href="https://ottware.itch.io/"><button>Ottware</button></a> 
+                <p>I have developed a series of <b>video game projects</b> using <b>Unity</b> under the alias Ottware, showcasing my skills in game development.</p>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
