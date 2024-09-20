@@ -7,6 +7,11 @@
   }
 }
 
+@media (max-width: 768px) {
+  body {
+    background-color: black;
+  }
+}
 html,body {
   height: 100%;
   /*background-color: #043E42;*/
@@ -16,6 +21,8 @@ html,body {
   text-align: center;
   animation: fadeIn 0.5s ease-in;
 }
+
+
 
 * {
   margin: 0;
@@ -93,3 +100,4 @@ h1 {
   font-size: 0.9rem;
   margin-top: 5px;
 }
+
