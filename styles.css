@@ -6,98 +6,73 @@
     opacity: 1;
   }
 }
+@keyframes blinking{
+  0% {opacity: 1;}
+  50% { opacity: 0;}
+  100% { opacity: 1;}
+}
 
 @media (max-width: 768px) {
   body {
-    background-color: #043E42;
+    background-color: beige;
   }
 }
 html,body {
-  height: 100%;
-  /*background-color: #043E42;*/
-  background-image: linear-gradient(to right bottom, #043e42, #065056, #08646a, #0b7880, #0d8c96);
+  background: black;
   color: white;
   font-family: 'Lucida', monospace;
-  text-align: center;
   animation: fadeIn 0.5s ease-in;
+  overflow: hidden;
+  height:  100vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
-
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
-
-.container {
-  position: absolute;
-  text-align: left;
-  top:25%;
-  left:5%;
+.container{
+  display: flex;
+  align-items: center;
 }
 
-header {
-  margin-bottom: 25px;
+.name {
+  margin-right: 3px;
+  display: flex;
+  align-items: center;
 }
 
-h1 {
-  font-size: 3rem;
-  color: #e6e6e6;
+.blinking{
+  display:inline-block;
+  width: 4px;
+  height: 16px;
+  background-color: white;
+  margin-right: 10px;
+  animation: blinking 1s infinite;
 }
 
-.highlight {
-  color: #06565c;
+.separator-line {
+  width: 2px;
+  height: 100px;
+  background-color: white;
 }
 
-.social-icons {
-  margin: 20px 0;
+.my-links {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
 }
 
-.social-icons a {
-  margin: 0 10px;
-  color: #e6e6e6;
-  font-size: 1.5rem;
+.my-links a{
+  color:white;
   text-decoration: none;
+  margin: 5px 0;
 }
 
-.social-icons a:hover {
-  color: #086f79;
+.my-links a:hover{
+  text-decoration: underline;
 }
-
-.projects h2 {
-  font-size: 2rem;
-  color: #0a8992;
-  margin-bottom: 20px;
-}
-
-.project-item {
-  margin-bottom: 20px;
-  margin-left: 5px;
-}
-
-.project-item button {
-  background-color: #076B72;
-  color: white;
-  border: none;
-  border-radius: 30px;
-  height: 45px;
-  width: 150px;
-  text-align: center;
-  cursor: pointer;
-  font-size: 1rem;
-  margin-right: 5px;
-}
-
-.project-item button:hover {
-  background-color: #086f79;
-}
-
-.project-item p {
-  color: #ffffff;
-  font-size: 0.9rem;
-  margin-top: 5px;
-}
-
